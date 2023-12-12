@@ -1,5 +1,5 @@
 {
-    "name": "video_streaming",
+    "name": "salma/video_streaming",
     "description": "A Video Streaming Website.",
     "type": "project",
     "license": "MIT",
