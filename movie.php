@@ -48,7 +48,7 @@ if (isset($_POST['submit'])) {
 				</video>
 			</div><br>
 
-			<h4>Reviews of this Movie</h4><br>
+			<h4>Reviews of this Movie</h4>
 			<div class="reviews" style="display:flex; flex-direction:row;gap:50px">
 				<?php
 					$sql = "select comments.*, videocontent.*, users.* from comments,videocontent,users where comments.VideoID=videocontent.VideoID and comments.UserID=users.UserID and comments.VideoID='$video_id'" ;
@@ -63,12 +63,11 @@ if (isset($_POST['submit'])) {
 					<span>Comment: <?php echo $res['Comment']; ?> </span><br>
 				</div>
 			
-			
 				<?php
 				}
 			}
 				?>
-				</div>
+				</div><br><br>
 		</div>
 
 		<div id="display_review"></div>
