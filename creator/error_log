@@ -1,0 +1,71 @@
+[02-May-2023 04:33:41 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/demo/admin_panel/index.php on line 23
+[02-May-2023 09:46:22 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/demo/admin_panel/index.php on line 23
+[03-May-2023 00:47:10 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/demo/admin_panel/index.php on line 23
+[03-May-2023 08:08:52 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/demo/admin_panel/index.php on line 23
+[03-May-2023 09:06:06 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/demo/admin_panel/index.php on line 23
+[03-May-2023 09:20:40 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/demo/admin_panel/index.php on line 23
+[06-May-2023 07:06:48 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[08-May-2023 02:23:08 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[11-May-2023 02:04:17 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[11-May-2023 03:03:08 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[11-May-2023 03:28:23 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $slug in /home/cybernetics/public_html/admin_panel/insert_blog.php on line 10
+[11-May-2023 04:32:19 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[11-May-2023 04:36:04 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[11-May-2023 04:45:52 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[11-May-2023 09:00:06 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[11-May-2023 09:07:03 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:07:10 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:12:43 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:14:22 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:14:59 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:15:52 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:18:15 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's performances.' WHERE service_id='8'' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:20:40 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's products or services in a visually appealing way, helping to increase brand...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:28:33 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[11-May-2023 09:28:42 America/Argentina/Buenos_Aires] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's growing needs, whether that means adding new pages, features, or functional...' at line 1 in /home/cybernetics/public_html/admin_panel/update_service.php:26
+Stack trace:
+#0 /home/cybernetics/public_html/admin_panel/update_service.php(26): mysqli_query()
+#1 {main}
+  thrown in /home/cybernetics/public_html/admin_panel/update_service.php on line 26
+[01-Jun-2023 09:14:51 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[03-Jun-2023 06:21:10 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[03-Jun-2023 06:46:15 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[04-Jun-2023 06:55:22 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[04-Jun-2023 09:30:08 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23
+[05-Jun-2023 02:10:16 America/Argentina/Buenos_Aires] PHP Warning:  Undefined variable $names in /home/cybernetics/public_html/admin_panel/index.php on line 23

@@ -1,0 +1,61 @@
+
+<?php
+
+include('../database.php');
+include("functions.php"); 
+
+if (isset($_POST['update'])) {
+    $nid = $_POST['blog_id'];
+    $names = $_POST['name'];
+    $blog_Slug = blogslug($names);
+    $heading = $_POST['heading'];
+    $meta_description = $_POST['meta_description'];
+    $categories = $_POST['category_id'];
+    $blog_info = addslashes($_POST['blog_info']);
+
+    $qury101 = "SELECT * FROM blog where blog_id='$nid' ";
+    $res101 = mysqli_fetch_assoc(mysqli_query($con, $qury101))['blog_image'];
+
+    if (!empty($_FILES["picture"]["name"])) {
+        // Get file info 
+        $fileName = basename($_FILES["picture"]["name"]);
+        $fileType = pathinfo($fileName, PATHINFO_EXTENSION);
+
+        // Allow certain file formats 
+        $allowTypes = array('jpg', 'png', 'jpeg', 'gif');
+        if (in_array($fileType, $allowTypes)) {
+            $picture = $_FILES['picture']['tmp_name'];
+            $imgContent = addslashes(file_get_contents($picture));
+
+            if ($con->connect_error) {
+                echo "$con->connect_error";
+                die("Connection Failed : " . $con->connect_error);
+            } else {
+                $sql5 = "Update blog SET blog_title='$names',blog_slug='$blog_Slug',blog_image='$imgContent',blog_description='$blog_info',category_id='$categories',heading='$heading',meta_description='$meta_description' where blog_id='$nid'";
+
+                if (mysqli_query($con, $sql5)) {
+                    echo ("<script language='javascript'>
+                        window.alert('Submitted successfully...');
+                        window.location.href='blogs.php';</script>");
+                } else {
+                    echo "not successfull";
+                }
+            }
+        }
+    } else {
+        $sql = "Update blog SET blog_title='$names',blog_slug='$blog_Slug',blog_description='$blog_info',category_id='$categories' where blog_id='$nid'";
+        $res = mysqli_query($con, $sql);
+
+        if ($res) {
+            echo ("<script language='javascript'>
+                    window.alert('Updated successfully...');
+                    window.location.href='blogs.php';</script>");
+        } else {
+            echo ("<script language='javascript'>
+                    window.alert('Not Updated...');
+                    window.location.href='blogs.php';</script>");
+        }
+    }
+}
+
+?>
