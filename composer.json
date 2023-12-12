@@ -1,0 +1,12 @@
+{
+    "name": "video_streaming",
+    "description": "A Video Streaming Website.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        // Assuming you want to use PDO for MySQL connectivity
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*"
+    }
+}
