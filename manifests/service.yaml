@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: aks-deploy
+  namespace: namespace-workflow-1702400582235
+spec:
+  type: LoadBalancer
+  selector:
+    app: aks-deploy
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
